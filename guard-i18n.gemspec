@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "guard/guard-i18n/version"
+require "guard/i18n/version"
 
 Gem::Specification.new do |s|
   s.name        = "guard-i18n"

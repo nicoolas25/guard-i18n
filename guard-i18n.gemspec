@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.require_path =  ['lib']
 
   # specify any dependencies here; for example:
+  s.add_dependency "json"
   s.add_dependency "guard"
 end

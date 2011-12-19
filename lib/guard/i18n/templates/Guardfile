@@ -1,0 +1,7 @@
+require "guard/i18n"
+
+# Look for modifications for languages yml
+guard 'i18n' do
+  watch(%r{config/locales/.+\.yml$})
+end
+

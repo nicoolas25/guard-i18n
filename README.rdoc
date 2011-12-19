@@ -1,0 +1,44 @@
+= Guard::I18n
+
+I18n guard allows to automatically rebuild javascript translations from existing *.yml of your app
+that contains a Javascript section.
+
+== Install
+
+Please be sure to have {Guard}[http://github.com/guard/guard] installed before continue.
+
+Install the gem:
+
+    gem install guard-i18n
+
+Add it to your Gemfile (inside development group):
+
+    gem 'guard-i18n', :git => TODO, :branch => TODO
+
+Add guard definition to your Guardfile by running this command:
+
+    guard init i18n
+
+== Usage
+
+Please read {Guard usage doc}[http://github.com/guard/guard#readme]
+
+== Guardfile
+
+Please read {Guard doc}[http://github.com/guard/guard#readme] for more info about Guardfile DSL.
+
+    guard 'i18n' do
+      watch(%r{config/locales/.+\.yml})
+    end
+
+== Development
+
+- Source hosted at {GitHub}[http://github.com/nicoolas25/guard-i18n]
+- Report issues/Questions/Feature requests on {GitHub Issues}[http://github.com/nicoolas25/guard-i18n/issues]
+
+Pull requests are very welcome! Make sure your patches are well tested. Please create a topic branch for every separate change
+you make.
+
+== Authors
+
+{Nicolas Zermati}[http://github.com/nicoolas25]

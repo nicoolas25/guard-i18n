@@ -1,9 +1,8 @@
 require 'guard'
 require 'guard/guard'
-require "guard/guard-i18n/version"
 
 module Guard
-  class GuardI18n < Guard
+  class I18n < Guard
 
     # Initialize a Guard.
     # @param [Array<Guard::Watcher>] watchers the Guard file watchers

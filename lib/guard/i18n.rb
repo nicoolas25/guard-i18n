@@ -26,7 +26,6 @@ root.locale = locale
     def run_on_change(paths)
       Dir::mkdir(TARGET_DIR) unless File.directory?(TARGET_DIR)
 
-      locales = Rails.root.join('config', 'locales', '**', '*.yml')
       paths.each do |locale_path|
         filename = File.basename(locale_path, ".yml")
         input = File.new(locale_path, 'r')

@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "guard/i18n/version"
+Kernel.load File.expand_path('../lib/guard/i18n/version.rb', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "guard-i18n"

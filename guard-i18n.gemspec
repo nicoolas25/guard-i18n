@@ -3,7 +3,7 @@ Kernel.load File.expand_path('../lib/guard/i18n/version.rb', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "guard-i18n"
-  s.version     = Guard::I18n::VERSION
+  s.version     = Guard::I18nVersion::VERSION
   s.authors     = ["Nicolas ZERMATI"]
   s.email       = ["nicoolas25@gmail.com"]
   s.homepage    = ""

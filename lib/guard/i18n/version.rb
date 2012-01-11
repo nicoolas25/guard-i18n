@@ -1,8 +1,5 @@
-require 'guard'
-require 'guard/guard'
-
 module Guard
-  class I18n < Guard
+  class I18nVersion
     VERSION = "0.0.1"
   end
 end
